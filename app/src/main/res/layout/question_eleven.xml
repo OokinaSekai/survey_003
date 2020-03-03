@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="143dp"
+        android:layout_height="41dp"
+        android:text="       " />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="187dp"
+        android:layout_height="51dp"
+        android:text="  Question 11"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:text="     What's your gender?"
+        android:textSize="24sp" />
+    <RadioGroup
+        android:id="@+id/q110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RadioButton
+        android:id="@+id/q111"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:text="Male"
+        android:buttonTint="#009688" />
+
+    <RadioButton
+        android:id="@+id/q112"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:buttonTint="#009688"
+        android:text="Female" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_q11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#009688"
+            android:text="Next"
+            android:textSize="30sp"
+            android:layout_marginHorizontal="10dp" />
+    </LinearLayout>
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>
